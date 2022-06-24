@@ -1,0 +1,11 @@
+body {
+    padding: 3rem 7rem;
+}
+.top-section {
+    display: flex;
+    flex-direction: row;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
