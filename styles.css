@@ -1,11 +1,150 @@
 body {
-    padding: 3rem 7rem;
+    margin: 40px 200px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    overflow: hidden;
 }
 .top-section {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
+
+/* top left */
+
+.top-left h1 {
+    width: 18rem;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(300, 43%, 22%);
+}
+.top-left p {
+    width: 22rem;
+    font-weight: 400;
+    color: hsl(303, 10%, 53%);
+}
+
+/* top right */
+
+.bg {
+    background-color: hsl(300, 24%, 96%);
+    padding: 0.5rem;
+    margin: 10px;
+    border-radius: 15px;
+}
+.right-top {
+    width: 25rem;
+}
+.right-top h3 span img {
+    padding-right: 0.5rem;
+}
+.right-middle {
+    margin-left: 3rem;
+    width: 25rem;
+}
+.right-middle h3 span img {
+    padding-right: 0.5rem;
+}
+.right-bottom {
+    margin-left: 6rem;
+    width: 25rem;
+}
+.right-bottom h3 span img {
+    padding-right: 0.5rem;
+}
+
+
+
+/* bottom  */
 .bottom {
     display: flex;
     flex-direction: row;
+    color: hsl(0, 0%, 100%);
+    justify-content: space-between;
+}
+.verified-buyer {
+    color: hsl(333, 80%, 67%);
+}
+.profile-img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.profile-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.left {
+    width: 20rem;
+    height: 8rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 10px 20px 10px 0;
+    background-color:  hsl(300, 43%, 22%);
+}
+.left .profile-section h3 {
+    margin: 0;
+}
+
+
+.middle {
+    width: 20rem;
+    height: 8rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 2rem;
+    background-color:  hsl(300, 43%, 22%);
+}
+.middle .profile-section h3 {
+    margin: 0;
+}
+
+
+.right {
+    width: 20rem;
+    height: 8rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 10px 0 20px 10px;
+    margin-top: 4rem;
+    background-color:  hsl(300, 43%, 22%);
+}
+.right .profile-section h3 {
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 20px;
+    }
+    .top-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    .right-top {
+        margin-left: 0;
+    }
+    .right-middle {
+        margin-left: 0;
+    }
+    .right-bottom {
+        margin-left: 0;
+    }
+    .left {
+        margin: 20px 0 0 0;
+    }
+    .middle {
+        margin: 20px 0 0 0;
+    }
+    .right {
+        margin: 20px 0 0 0;
+    }
 }
